@@ -102,7 +102,3 @@ pytest tests/ -v
 Both test suites run against an in-memory SQLite database and cover all endpoints including error cases.
 
 ---
-
-- `PUT` is a partial update — only fields included in the request body are changed, others remain untouched
-- The `users.db` file is created automatically on first run and is gitignored — no database setup is needed
-- Tests use an in-memory database so they never affect real data
